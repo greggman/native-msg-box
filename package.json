@@ -1,6 +1,6 @@
 {
   "name": "native-msg-box",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Make a native msg box appear",
   "main": "lib/msgbox.js",
   "scripts": {
