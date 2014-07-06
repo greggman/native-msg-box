@@ -42,6 +42,9 @@ API:
         Result.YES
         Result.NO
 
+    Why not just a simple `true` or `false`? Because the future possibility of
+    more values like `Cancel`, `Retry`, etc..
+
 To Do
 -----
 
