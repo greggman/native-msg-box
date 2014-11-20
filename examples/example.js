@@ -32,8 +32,8 @@
 
 var msgbox = require('../lib/msgbox.js');
 msgbox.prompt({
-  msg: "Hunt the Wumpus",
-  title: "oldskool",
+  msg: "This \"thing\" uses 'quotes'",
+  title: "\"Quotes\"",
 }, function(err, result) {
   switch (result) {
     case msgbox.Result.YES:
@@ -43,8 +43,25 @@ msgbox.prompt({
       console.log("pressed no");
       break;
   }
-  example02();
+  example01();
 });
+
+function example01() {
+  msgbox.prompt({
+    msg: "Hunt the Wumpus",
+    title: "oldskool",
+  }, function(err, result) {
+    switch (result) {
+      case msgbox.Result.YES:
+        console.log("pressed yes");
+        break;
+      case msgbox.Result.NO:
+        console.log("pressed no");
+        break;
+    }
+    example02();
+  });
+}
 
 function example02() {
   msgbox.prompt({

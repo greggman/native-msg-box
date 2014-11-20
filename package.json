@@ -22,7 +22,5 @@
     "url": "https://github.com/greggman/native-msg-box/issues"
   },
   "homepage": "https://github.com/greggman/native-msg-box",
-  "dependencies": {
-    "escape-string-applescript": "^0.1.1"
-  }
+  "dependencies": {}
 }
