@@ -45,12 +45,18 @@ API:
     Why not just a simple `true` or `false`? Because the future possibility of
     more values like `Cancel`, `Retry`, etc..
 
+Prerequisites
+-------------
+
+Currently the Linux verison requires `wmctrl` and `zentiy`.
+
 To Do
 -----
 
 *   Add more dialog types. For example
-    * a single string prompt `"Enter Name: ____"`
-    * other buttons like "Ok", "Cancel"
+
+    *    a single string prompt `"Enter Name: ____"`
+    *    other buttons like "Ok", "Cancel"
 
 
 
